@@ -4,6 +4,11 @@
 	 import Header from './components/heder.svelte'
 	 import Content from './components/content.svelte'
 	 import Bottom from './components/bottom.svelte'
+	 import Active from './components/active.svelte'
+	 import TodoList from './components/todoList.svelte';
+	 import Event from './components/evnet.svelte';
+
+
 </script>
 
 <div>
@@ -11,7 +16,13 @@
 	<Header/>
 	<Content/>
 	<Bottom />
-    </main>
+	<Active />
+	<!-- <TodoList /> -->
+	<br/>
+	<Event/>
+ 
+
+</main>
 </div>
 
 <style>
